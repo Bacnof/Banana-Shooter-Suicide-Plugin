@@ -19,8 +19,8 @@ local function readConfig(filename)
 end
 
 
-local config1 = readConfig("./Servers/server/Lua/Configs/config.txt")
-local config2 = readConfig("./Servers/MyServer/Lua/Configs/config.txt")
+local config1 = readConfig("./Servers/server/Lua/Configs/Suicide-Plugin-Config.txt")
+local config2 = readConfig("./Servers/MyServer/Lua/Configs/Suicide-Plugin-Config.txt")
 local config = config1 or config2
 
 
