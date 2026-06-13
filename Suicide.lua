@@ -6,7 +6,7 @@ local function readConfig(filename)
     local config = {}
     local file = io.open(filename, "r")
     if not file then
-        return config 
+        return nil
     end
     for line in file:lines() do
         local key, value = line:match("^(.-)=(.-)$")
