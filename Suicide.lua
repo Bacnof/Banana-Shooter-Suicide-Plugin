@@ -19,9 +19,7 @@ local function readConfig(filename)
 end
 
 
-local config1 = readConfig("./Servers/server/Lua/Configs/Suicide-Plugin-Config.txt")
-local config2 = readConfig("./Servers/MyServer/Lua/Configs/Suicide-Plugin-Config.txt")
-local config = config1 or config2
+local config = readConfig("./Configs/Suicide-Plugin-Config.txt")
 
 
 if config["enabled"] == "true" then
