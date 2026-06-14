@@ -24,11 +24,12 @@ local config2 = readConfig("./Servers/MyServer/Lua/Configs/Suicide-Plugin-Config
 local config = config1 or config2
 
 
-if config["debug"] == "true" then
-    print("Suicide-Plugin: debug is enabled")
-    if config["enabled"] == "true" then
+if config["enabled"] == "true" then
+    if config["debug"] == "true" then
+        print("Suicide-Plugin: debug is enabled")
         print("Suicide-Plugin: Plugin is enabled")
-        hook:Add("PlayerSay","Test",function(player,text)
+    end
+    hook:Add("PlayerSay","Test",function(player,text)
 
         if text == "/Suicide" then
             player:Kill()
@@ -37,27 +38,12 @@ if config["debug"] == "true" then
 	
         return text
 
-        end)
-    else
-        if config["enabled"] == "false" then
-        print("Suicide-Plugin: Plugin is deactivated")
-        else
-        print("Suicide-Plugin: Config Error")
-        end
-    end
+    end) 
 else
-    if config["debug"] == "false" then
-        if config["enabled"] == "true" then
-            hook:Add("PlayerSay","Test",function(player,text)
-
-            if text == "/Suicide" then
-                player:Kill()
-                return "I committed Suicide"
-            end
-        
-            return text
-
-            end)
+    if config["enabled"] == "false" then
+        if config["debug"] == "true" then
+            print("Suicide-Plugin: debug is enabled")
+            print("Suicide-Plugin: Plugin is deactivated")
         end
     end
 end
