@@ -1,2 +1,4 @@
+# Enable or disable the plugin
 enabled=true
+# Enable debug messages in the console
 debug=false
