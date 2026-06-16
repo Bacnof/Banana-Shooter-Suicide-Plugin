@@ -21,10 +21,11 @@ end
 
 local config = readConfig("./Configs/Suicide-Plugin-Config.txt")
 
-
+if config["debug"] == "true" then
+    print("Suicide-Plugin: debug is enabled")
+end
 if config["enabled"] == "true" then
     if config["debug"] == "true" then
-        print("Suicide-Plugin: debug is enabled")
         print("Suicide-Plugin: Plugin is enabled")
     end
     hook:Add("PlayerSay","Test",function(player,text)
