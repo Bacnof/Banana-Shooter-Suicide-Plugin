@@ -1,5 +1,8 @@
 # Banana-Shooter-Suicide-Plugin
 
+## Disclaimer
+I don't support or encourage self-harm, it's purely a fictional game mechanic.
+
 ## Plugin Description
 If you write /Suicide in the Chat, you die and instead of /Suicide it says I committed Suicide.
 
