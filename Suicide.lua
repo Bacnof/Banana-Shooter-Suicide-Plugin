@@ -33,7 +33,7 @@ if config["enabled"] == "true" then
         if text == "/Suicide" then
             player:Kill()
 			if config["log"] == "true" then
-                print(Suicide-Plugin: A Player committed Suicide)
+                print("Suicide-Plugin: A Player committed Suicide")
             end
             return "I committed Suicide"
         end
