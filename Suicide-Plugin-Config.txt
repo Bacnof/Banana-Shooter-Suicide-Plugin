@@ -2,3 +2,5 @@
 enabled=true
 # Enable debug messages in the console
 debug=false
+# Enable for logs in the console if the Command was executed
+log=false
