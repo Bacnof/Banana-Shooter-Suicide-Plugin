@@ -9,7 +9,8 @@ Only the newest version of this project is currently being supported with securi
 | 1.0.0   | :x:                |
 | 2.0.0   | :x:                |
 | 2.0.1   | :x:                |
-| 2.1.0   | :white_check_mark: |
+| 2.1.0   | :x:                |
+| 2.2.0   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
