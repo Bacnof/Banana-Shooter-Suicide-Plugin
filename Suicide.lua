@@ -23,6 +23,9 @@ local config = readConfig("./Configs/Suicide-Plugin-Config.txt")
 
 if config["debug"] == "true" then
     print("Suicide-Plugin: debug is enabled")
+    if config["log"] == "true" then
+        print("Suicide-Plugin: Logs are enabled")
+    end
 end
 if config["enabled"] == "true" then
     if config["debug"] == "true" then
@@ -44,7 +47,6 @@ if config["enabled"] == "true" then
 else
     if config["enabled"] == "false" then
         if config["debug"] == "true" then
-            print("Suicide-Plugin: debug is enabled")
             print("Suicide-Plugin: Plugin is deactivated")
         end
     end
