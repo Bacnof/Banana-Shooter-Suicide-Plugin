@@ -28,7 +28,7 @@ if config["enabled"] == "true" then
     if config["debug"] == "true" then
         print("Suicide-Plugin: Plugin is enabled")
     end
-    hook:Add("PlayerSay","Test",function(player,text)
+    hook:Add("PlayerSay","Suicide",function(player,text)
 
         if text == "/Suicide" then
             player:Kill()
