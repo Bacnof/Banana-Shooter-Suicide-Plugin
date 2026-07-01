@@ -40,7 +40,7 @@ if config["enabled"] == "true" then
             end
             return "I committed Suicide"
         end
-	
+
         return text
 
     end) 
