@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the newest version of this project is currently being supported with security updates.
+I will only do security updates for the newest version because the different versions are just from the plugin and not for the game, since the game doesn't get any updates anymore.
 
 | Version | Supported          | Vulnerability |
 | ------- | ------------------ |---------------|
