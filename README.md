@@ -8,3 +8,13 @@ If you write /Suicide in the Chat, you die and instead of /Suicide it says I com
 
 ## Installation
 You put the Suicide.lua file in the AutoRun folder. You must create a new folder called **Configs** that is in the same folder as the Server start file and put the Config.txt in there.
+
+## Default Config
+```yaml
+# Enable or disable the plugin
+enabled=true
+# Enable debug messages in the console
+debug=false
+# Enable for logs in the console if the Command was executed
+log=false
+```
