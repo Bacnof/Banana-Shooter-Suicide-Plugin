@@ -24,11 +24,11 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. iOS]
+ - OS: [e.g. Windows]
  - Version [e.g. 22]
 
 **Server (please complete the following information):**
- - OS: [e.g. iOS]
+ - OS: [e.g. Linux]
  - Other Plugins
  - Version [e.g. 22]
 
